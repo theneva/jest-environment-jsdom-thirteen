@@ -11,9 +11,11 @@ import type {ProjectConfig} from './Config';
 import type {Global} from './Global';
 import type {Script} from 'vm';
 import type {ModuleMocker} from 'jest-mock';
+import {ResourceLoader} from 'jsdom';
 
 export type EnvironmentOptions = {
   console?: Object,
+  resources?: 'usable' | ResourceLoader
 };
 
 declare class $JestEnvironment {
