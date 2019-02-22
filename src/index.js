@@ -34,6 +34,7 @@ class JSDOMEnvironment {
           virtualConsole: new VirtualConsole().sendTo(
             options.console || console,
           ),
+          resources: options.resources
         },
         config.testEnvironmentOptions,
       ),
