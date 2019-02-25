@@ -11,7 +11,8 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "mkdirp build && babel src/index.js -o build/index.js"
+    "build": "mkdirp build && babel src/index.js -o build/index.js",
+    "prepublish": "yarn build"
   },
   "description": "JSDOM environment for Jest with JSDOM 13 (which doesn't support Node 6)",
   "author": "Martin Lehmann",
