@@ -1,6 +1,6 @@
 {
   "name": "jest-environment-jsdom-thirteen",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "repository": "https://github.com/theneva/jest-environment-jsdom-thirteen",
   "license": "MIT",
   "main": "build/index.js",
